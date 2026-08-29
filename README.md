@@ -55,4 +55,4 @@ The following external packages were used in this project to adhere to Flutter b
 - **Asset Availability:** The generic `assets/images` directory (such as `avatar.jpg`, `hotel_1.jpg`) was used since original Figma high-resolution image exports were not explicitly provided.
 - **Custom Drawer Animation:** The 3D scaling/zooming drawer animation was implemented using `AnimatedContainer` and `Transform` APIs to exactly replicate the feeling of the Figma design.
 - **Interactive vs Static UI:** Some areas of the Figma design displayed a static mockup (e.g., a static calendar grid starting from 1 to 31). The implementation provides a fully functional and animated layout (swiping between months, range selection showing continuous pills) while preserving the exact layout, colors, and styling from the static reference.
-- **App Name:** The project was initialized as `settings_app` internally as per the pubspec file, though it behaves as a travel/booking application.
+- **App Name:** The project was initialized as `travel_assignment` internally as per the pubspec file, though it behaves as a travel/booking application.
