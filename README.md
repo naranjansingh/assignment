@@ -9,7 +9,7 @@ Follow these instructions to run the application on your local machine:
 1. **Clone the repository:**
    ```bash
    git clone <REPOSITORY_URL>
-   cd adventurous-davinci
+   cd travel_assignment
    ```
 
 2. **Fetch dependencies:**
