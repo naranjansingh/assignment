@@ -1,4 +1,4 @@
-# Settings App (Flutter UI Assignment)
+# Travel App (Flutter UI Assignment)
 
 This repository contains the Flutter implementation of the provided Figma design for the Flutter Developer Assignment. The application closely replicates the UI with pixel-perfect accuracy, responsive layouts, smooth animations, and interactive navigation flows while maintaining a clean, modular, and maintainable codebase.
 
