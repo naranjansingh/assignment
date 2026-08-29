@@ -2,7 +2,7 @@
 
 This repository contains the Flutter implementation of the provided Figma design for the Flutter Developer Assignment. The application closely replicates the UI with pixel-perfect accuracy, responsive layouts, smooth animations, and interactive navigation flows while maintaining a clean, modular, and maintainable codebase.
 
-## 🚀 Project Setup
+## Project Setup
 
 Follow these instructions to run the application on your local machine:
 
@@ -23,13 +23,13 @@ Follow these instructions to run the application on your local machine:
    flutter run
    ```
 
-## 🛠 Requirements
+## Requirements
 
 - **Flutter SDK:** version 3.6.1 or newer.
 - **Dart SDK:** compatible with Flutter 3.6.1 (e.g. ^3.6.1).
 - Android Studio or Xcode (for building to Android or iOS).
 
-## 📦 Build Instructions
+## Build Instructions
 
 To generate the Android APK for release:
 
@@ -41,7 +41,7 @@ To generate the Android APK for release:
 3. The generated APK will be located at:
    `build/app/outputs/flutter-apk/app-release.apk`
 
-## 📚 Third-Party Packages
+## Third-Party Packages
 
 The following external packages were used in this project to adhere to Flutter best practices while avoiding unnecessary bloat:
 
@@ -50,7 +50,7 @@ The following external packages were used in this project to adhere to Flutter b
 - **[`intl`](https://pub.dev/packages/intl):** Utilized for proper date formatting in the calendar screen (e.g. converting `DateTime` objects into strings like "Mon, Oct 24 - Wed, Oct 26").
 - **[`cupertino_icons`](https://pub.dev/packages/cupertino_icons):** Default icon set required by Flutter for iOS-style icons.
 
-## 📌 Assumptions & Deviations
+## Assumptions & Deviations
 
 - **Asset Availability:** The generic `assets/images` directory (such as `avatar.jpg`, `hotel_1.jpg`) was used since original Figma high-resolution image exports were not explicitly provided.
 - **Custom Drawer Animation:** The 3D scaling/zooming drawer animation was implemented using `AnimatedContainer` and `Transform` APIs to exactly replicate the feeling of the Figma design.
