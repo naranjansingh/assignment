@@ -1,4 +1,4 @@
-package com.example.settings_app
+package com.assignment.teqmave
 
 import io.flutter.embedding.android.FlutterActivity
 
